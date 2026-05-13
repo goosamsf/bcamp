@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install *)",
+      "Bash(pip list *)",
+      "Bash(pip3 list *)",
+      "Bash(pip3 --version)",
+      "Bash(python3 *)",
+      "Bash(.venv/bin/python *)",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(chmod +x *)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(git filter-branch *)",
+      "Bash(git stash *)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .env' --prune-empty --tag-name-filter cat -- --all)",
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(gh repo *)",
+      "Bash(sudo pacman *)",
+      "Bash(git fsck *)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)",
+      "Bash(git ls-remote *)",
+      "Bash(git clone *)",
+      "Bash(xargs -I {} git update-ref -d {})",
+      "Bash(git reflog *)",
+      "Bash(git gc *)"
+    ]
+  }
+}
